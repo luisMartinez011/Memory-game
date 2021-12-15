@@ -1,0 +1,15 @@
+.grilla{
+    display: grid;   
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color:  #2196F3;
+}
+
+.grilla div{
+    border:2px solid black;
+    background-color: violet;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
